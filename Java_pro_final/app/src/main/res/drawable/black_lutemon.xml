@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="120dp"
+    android:height="120dp"
+    android:viewportWidth="120"
+    android:viewportHeight="120">
+    <!-- 这里是黑色 Zorua 的简化矢量图 -->
+    <path
+        android:fillColor="#333333"
+        android:pathData="M60,60m-50,0a50,50 0,1 1,100 0a50,50 0,1 1,-100 0"/>
+    <!-- 左眼 -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M40,45m-5,0a5,5 0,1 1,10 0a5,5 0,1 1,-10 0"/>
+    <!-- 右眼 -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M80,45m-5,0a5,5 0,1 1,10 0a5,5 0,1 1,-10 0"/>
+    <!-- 笑容 -->
+    <path
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="3"
+        android:strokeLineCap="round"
+        android:pathData="M40,70 Q60,90 80,70"/>
+</vector> 
